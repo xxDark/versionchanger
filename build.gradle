@@ -1,0 +1,10 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.xdark'
+version = '1.0'
+
+java.toolchain {
+    languageVersion.set(JavaLanguageVersion.of(17))
+}
